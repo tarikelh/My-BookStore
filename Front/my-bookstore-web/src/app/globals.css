@@ -1,0 +1,192 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5e6;
+  color: #2e2e2e;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #f5f5e6;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+header nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #2e2e2e;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  color: #5a5a5a;
+}
+
+main {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.welcome h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.buttons .btn {
+  background-color: #4a5a36;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.buttons .btn.secondary {
+  background-color: #e2e2e2;
+  color: #2e2e2e;
+}
+
+.buttons .btn:hover {
+  opacity: 0.8;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.images img {
+  width: 45%;
+  border-radius: 10px;
+}
+
+
+.container {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5e9;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f5e9;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  margin-right: 20px;
+}
+
+.nav li:last-child {
+  margin-right: 0;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.mainContent {
+  text-align: center;
+  padding: 20px;
+}
+
+.mainContent h3 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+
+.shopButton, .libraryButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.shopButton {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.images img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}

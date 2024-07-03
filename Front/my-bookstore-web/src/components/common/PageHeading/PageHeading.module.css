@@ -1,0 +1,44 @@
+.page-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #f5f5e6;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .page-heading-left h2 {
+    font-size: 2rem;
+    margin: 0;
+    font-family: 'Times New Roman', serif;
+    color: #2e2e2e;
+  }
+  
+  .page-heading-left .availability-date {
+    font-size: 1rem;
+    color: #2e2e2e;
+  }
+  
+  .page-heading-right {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .filter-button {
+    background-color: #eef0e6;
+    color: #2e2e2e;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .filter-button.active {
+    background-color: #c2c4b6;
+  }
+  
+  .filter-button:hover {
+    background-color: #d5d7c8;
+  }
+  

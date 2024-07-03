@@ -1,0 +1,89 @@
+/* src/styles.css */
+
+.order-confirmation {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5e9;
+  border-radius: 8px;
+}
+
+.order-confirmation h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.order-number {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.thank-you {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.totals {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subtotal,
+.total {
+  font-size: 16px;
+}
+
+.total {
+  font-weight: bold;
+}
+.page-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #f5f5e6;
+}
+
+.page-heading h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-family: 'Times New Roman', serif;
+}
+
+.page-heading .availability-date {
+  font-size: 1rem;
+  color: #2e2e2e;
+}
+
+.page-heading .filter-button {
+  background-color: #eef0e6;
+  color: #2e2e2e;
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arial', sans-serif;
+}
+
+.page-heading .filter-button.active {
+  background-color: #c2c4b6;
+}
+
+.page-heading .filter-button:hover {
+  background-color: #d5d7c8;
+}

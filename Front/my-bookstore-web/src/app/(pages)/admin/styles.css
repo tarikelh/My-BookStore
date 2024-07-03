@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5e6;
+  color: #2e2e2e;
+  margin: 0;
+  padding: 0;
+}
+
+.admin-page {
+  padding: 20px 40px;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+
+.filters {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.filter-button {
+  background-color: #e2e2e2;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-table th,
+.product-table td {
+  border: 1px solid #e2e2e2;
+  padding: 15px;
+  text-align: left;
+}
+
+.product-table th {
+  background-color: #f5f5e6;
+}
+
+.product-table tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.product-table tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.action-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.edit-button {
+  color: #4a5a36;
+}
+
+.delete-button {
+  color: #b22222;
+}
+.page-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #f5f5e6;
+}
+
+.page-heading h2 {
+  margin: 0;
+  font-size: 2rem;
+  font-family: 'Times New Roman', serif;
+}
+
+.page-heading .availability-date {
+  font-size: 1rem;
+  color: #2e2e2e;
+}
+
+.page-heading .filter-button {
+  background-color: #eef0e6;
+  color: #2e2e2e;
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arial', sans-serif;
+}
+
+.page-heading .filter-button.active {
+  background-color: #c2c4b6;
+}
+
+.page-heading .filter-button:hover {
+  background-color: #d5d7c8;
+}

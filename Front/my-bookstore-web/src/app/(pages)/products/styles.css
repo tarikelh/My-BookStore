@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5e6;
+  color: #2e2e2e;
+  margin: 0;
+  padding: 0;
+}
+
+.page-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #f5f5e6;
+}
+
+.page-heading h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-family: 'Times New Roman', serif;
+}
+
+.page-heading .availability-date {
+  font-size: 1rem;
+  color: #2e2e2e;
+}
+
+.page-heading .filter-button {
+  background-color: #eef0e6;
+  color: #2e2e2e;
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Arial', sans-serif;
+}
+
+.page-heading .filter-button.active {
+  background-color: #c2c4b6;
+}
+
+.page-heading .filter-button:hover {
+  background-color: #d5d7c8;
+}
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-card {
+  background-color: white;
+  border: 1px solid #e2e2e2;
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product-card h6 {
+  margin: 10px 0;
+}
+
+.product-card .price {
+  color: #4a5a36;
+  font-weight: bold;
+}
+
+.product-card .quantity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.product-card .quantity button {
+  background-color: #e2e2e2;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.product-card .quantity span {
+  margin: 0 10px;
+  font-weight: bold;
+}
